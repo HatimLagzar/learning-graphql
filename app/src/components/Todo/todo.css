@@ -1,0 +1,21 @@
+.todo {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.todo.done {
+  background-color: #009674;
+  color: white;
+  border: 1px solid #007d00;
+}
+
+.todo span {
+  width: 70%;
+}
